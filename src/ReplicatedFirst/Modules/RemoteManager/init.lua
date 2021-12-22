@@ -71,8 +71,8 @@ Module.Get = function(self, Type: string, Name: string)
 
     local Remote = Parent:FindFirstChild(EncryptedName)
     if not Remote then
-		if not IsServer and IsRemote then
-			Remote = Parent:WaitForChild(EncryptedName)
+	if not IsServer and IsRemote then
+	    Remote = Parent:WaitForChild(EncryptedName)
         end
     end
 
