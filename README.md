@@ -44,7 +44,7 @@ print(NewNumber == StartNumber + 1) -- should be true
 
 ## More details
 
-To create a new remote instance, you just need to :Get the type (RemoteEvent, RemoteFunction, BindableEvent, BindableFunction) and then also provide a name to reference the instance by.
+To create (or get) a new remote instance, you just need to :Get the type (RemoteEvent, RemoteFunction, BindableEvent, BindableFunction) and then also provide a name to reference the instance by.
 
 You can just call the remote instances directly instead of having to bother with :FireClient or :FireServer (and InvokeClient/InvokeServer, Fire & Invoke).
 If you want to fire to all clients, you can do RemoteInstance.CallAll (equivalent to :FireAllClients).
