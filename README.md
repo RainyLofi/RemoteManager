@@ -47,6 +47,6 @@ print(NewNumber == StartNumber + 1) -- should be true
 To create (or get) a new remote instance, you just need to :Get the type (RemoteEvent, RemoteFunction, BindableEvent, BindableFunction) and then also provide a name to reference the instance by.
 
 You can just call the remote instances directly instead of having to bother with :FireClient or :FireServer (and InvokeClient/InvokeServer, Fire & Invoke).
-If you want to fire to all clients, you can do RemoteInstance.CallAll (equivalent to :FireAllClients).
+If you want to fire to all clients, you can do RemoteInstance:CallAll (equivalent to :FireAllClients).
 
 The module also supports bindable events/functions. Bindable events/functions created on the server can only be accessed by the server and bindable events/functions created on the client can only be accessed by the client.
