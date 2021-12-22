@@ -7,6 +7,8 @@ Benefits of using RemoteManager:
 - In order for an exploiter to find the remote event they want, they would have to either decrypt each event or also use the remote manager.
 - Cleans up code substantionally.
 
+![image](https://user-images.githubusercontent.com/71572372/147087358-03f36818-7ac2-4415-a9c6-c6fdda8bfa6f.png)
+
 ## Example of usage
 
 ### On the server:
