@@ -1,0 +1,11 @@
+{
+    "name": "Remote Manager",
+    "tree": {
+        "$className": "DataModel",
+
+        "ReplicatedFirst": {
+            "$className": "ReplicatedFirst",
+            "$path": "src/ReplicatedFirst"
+        }
+    }
+}
